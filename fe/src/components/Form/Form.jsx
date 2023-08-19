@@ -15,7 +15,7 @@ export function Form() {
             category,
         };
 
-        alert(newItem);
+        alert(JSON.stringify(newItem));
     }
 
     return (
