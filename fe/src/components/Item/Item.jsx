@@ -3,6 +3,10 @@ import styles from "./Item.module.css";
 export function Item({ word, translation, id, onDeleteItem }) {
     const [isTranslationShown, setIsTranslationShown] = useState(false);
 
+    function handleDeleteClick() {
+        alert("Delete");
+    }
+
     return (
         <li className={styles.item}>
             <span className={styles.word}>
@@ -21,10 +25,7 @@ export function Item({ word, translation, id, onDeleteItem }) {
                 >
                     👁️
                 </button>
-                <button
-                    onClick={() => onDeleteItem(id)}
-                    className={styles.button}
-                >
+                <button onClick={handleDeleteClick} className={styles.button}>
                     ✔️
                 </button>
             </div>
