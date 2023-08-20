@@ -1,10 +1,10 @@
 import { useState } from "react";
 import styles from "./Item.module.css";
-export function Item({ word, translation, id, onDeleteItem }) {
+export function Item({ word, translation, id }) {
     const [isTranslationShown, setIsTranslationShown] = useState(false);
 
     function handleDeleteClick() {
-        alert("Delete");
+        alert(`Delete element with ID: ${id}`);
     }
 
     return (
