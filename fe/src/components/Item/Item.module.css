@@ -1,11 +1,12 @@
 .item {
     border-radius: 8px;
     margin: 12px 24px;
-    padding: 8px 12px;
+    padding: 12px 16px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 8px;
     position: relative;
+    transition: background-color 0.3s;
 }
 
 .word {
@@ -21,7 +22,7 @@
 }
 
 .item:hover {
-    background-color: aliceblue;
+    background-color: var(--color-secondary);
 }
 
 .item:hover .button,

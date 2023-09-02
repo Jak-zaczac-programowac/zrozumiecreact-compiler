@@ -2,5 +2,5 @@
     margin: 12px 24px;
     padding: 12px;
     border-radius: 8px;
-    background-color: var(--color-secondary);
+    border: solid 1px var(--color-secondary);
 }

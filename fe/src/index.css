@@ -5,6 +5,7 @@
     --color-primary: #f9bc60;
     --color-secondary: #abd1c6;
     --color-error: #c0392b;
+    --color-border: #e5e7eb;
 }
 
 * {
@@ -14,7 +15,8 @@
 }
 
 body {
-    background: var(--color-bg);
+    background: linear-gradient(var(--color-secondary), var(--color-white));
     font-family: Helvetica, sans-serif;
     padding: 72px 24px;
+    min-height: 100vh;
 }
