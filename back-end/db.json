@@ -1,0 +1,22 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "word": "cat",
+      "translation": "kot",
+      "category": "noun"
+    },
+    {
+      "word": "jump",
+      "translation": "skakać",
+      "category": "verb",
+      "id": 3
+    },
+    {
+      "word": "test",
+      "translation": "aaa",
+      "category": "verb",
+      "id": 4
+    }
+  ]
+}
