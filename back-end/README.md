@@ -98,7 +98,7 @@ Consola:
 Wywołanie:
 
 ```js
-        fetch("http://localhost:3000/posts", {
+        fetch("http://localhost:3000/words", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
