@@ -7,21 +7,21 @@ export function Panel() {
     const [data, setData] = useState([
         {
             id: 1,
-            word: "cat",
-            translation: "kot",
+            word: "kot",
+            translation: "cat",
             category: "noun",
         },
         {
-            word: "dog",
-            translation: "pies",
-            category: "noun",
             id: 2,
+            word: "pies",
+            translation: "dog",
+            category: "noun",
         },
         {
-            word: "jump",
-            translation: "skakać",
-            category: "verb",
             id: 3,
+            word: "skakać",
+            translation: "jump",
+            category: "verb",
         },
     ]);
 

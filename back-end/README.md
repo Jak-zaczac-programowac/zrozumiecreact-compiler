@@ -16,8 +16,8 @@ Elementy zwracane i zapisywane do servera mają następujące pola:
 ```JSON
 {
   "id": 1,
-  "word": "cat",
-  "translation": "kot",
+  "word": "kot",
+  "translation": "cat",
   "category": "noun"
 }
 ```
@@ -50,13 +50,13 @@ Consola:
 [
     {
       "id": 1,
-      "word": "cat",
-      "translation": "kot",
+      "word": "kot",
+      "translation": "cat",
       "category": "noun"
     },
     {
-      "word": "jump",
-      "translation": "skakać",
+      "word": "skakać",
+      "translation": "jump",
       "category": "verb",
       "id": 3
     }
@@ -82,8 +82,8 @@ Consola:
 [
     {
       "id": 1,
-      "word": "cat",
-      "translation": "kot",
+      "word": "kot",
+      "translation": "cat",
       "category": "noun"
     }
   ]
@@ -115,7 +115,7 @@ Consola:
     {
       "id": 3,
       "word": "pies",
-      "translation": "cat",
+      "translation": "dog",
       "category": "noun"
     }
 
