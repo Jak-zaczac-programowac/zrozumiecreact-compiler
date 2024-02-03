@@ -39,9 +39,9 @@ Elementy zwracane i zapisywane do servera mają następujące pola:
 Wywołanie:
 
 ```js
-    fetch('http://localhost:3000/words`)
-        .then(res => res.json())
-        .console.log(res => res.json());
+fetch("http://localhost:3000/words")
+    .then((res) => res.json())
+    .console.log((res) => res.json());
 ```
 
 Consola:
@@ -71,9 +71,9 @@ Consola:
 Wywołanie:
 
 ```js
-    fetch('http://localhost:3000/words?category=noun`)
-        .then(res => res.json())
-        .console.log(res => res.json());
+fetch("http://localhost:3000/words?category=noun")
+    .then((res) => res.json())
+    .console.log((res) => res.json());
 ```
 
 Consola:
