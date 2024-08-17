@@ -12,7 +12,6 @@ export function Form({ onFormSubmit }) {
     const wordInputRef = useRef(null);
 
     function handleSubmit(e) {
-        console.log(wordInputRef);
         e.preventDefault();
         const newItem = {
             word: wordInputRef.current.value,
