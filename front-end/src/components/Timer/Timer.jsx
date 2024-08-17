@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import styles from "./Timer.module.css";
 import { Button } from "../Button/Button";
 
@@ -18,10 +18,21 @@ function secondsToMinutes(seconds) {
 
 export function Timer() {
     const [time, setTime] = useState(0);
+    const intervalRef = useRef(null);
 
-    function handleStartClick() {}
+    function handleStartClick() {
+        if (intervalRef.current === null) {
+            intervalRef.current = setInterval(
+                () => setTime((prevTime) => prevTime + 1),
+                1000
+            );
+        }
+    }
 
-    function handleStopClick() {}
+    function handleStopClick() {
+        clearInterval(intervalRef.current);
+        intervalRef.current = null;
+    }
 
     return (
         <section className={styles.section}>
