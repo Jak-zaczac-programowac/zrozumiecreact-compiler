@@ -1,4 +1,4 @@
-# Moduł 5 - Hooki i praca z API
+# Moduł 12 - React 19 - React compiler
 
 Żeby wystartować projekt pobierz repo, a następnie w terminalu wywołaj:
 
