@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, memo } from "react";
 import styles from "./Timer.module.css";
 import { Button } from "../Button/Button";
 
@@ -17,6 +17,7 @@ function secondsToMinutes(seconds) {
 }
 
 export function Timer() {
+    console.log("render");
     const [time, setTime] = useState(0);
     const intervalRef = useRef(null);
 

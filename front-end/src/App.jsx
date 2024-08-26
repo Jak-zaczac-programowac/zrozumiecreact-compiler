@@ -9,12 +9,12 @@ function App() {
     const [isPanelShown, setIsPanelShown] = useState(true);
     const [error, setError] = useState(null);
 
-    const handleError = useCallback((e) => {
+    const handleError = (e) => {
         setError(e.message);
         setTimeout(() => {
             setError(null);
         }, 3000);
-    }, []);
+    };
 
     return (
         <main className={styles.main}>
